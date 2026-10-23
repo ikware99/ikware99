@@ -1,0 +1,21 @@
+# 统一换行：仓库与工作树均为 LF
+* text=auto eol=lf
+
+# 二进制不做归一化
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+
+# 脚本强制 LF
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Windows 脚本编码由编辑器保证，git 不做转换
+*.cmd -text
+*.bat -text
